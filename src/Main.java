@@ -12,8 +12,15 @@ public class Main {
 
         //challeng2
 
-        Challenge2 car =new Challenge2("Ferrari","F8","100");
-        car.getAllData();
+//        Challenge2 car =new Challenge2("Ferrari","F8","100");
+//        car.getAllData();
+
+
+
+        //challeng3
+
+        Challenge3 student = new Challenge3("Jack", 60 ,70);
+        System.out.println(student.calcTotal(student.getMark1(), student.getMark2()));
 
     }
 }
